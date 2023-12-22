@@ -46,9 +46,7 @@ python3 app.py
 
 ### Fine-tuning mT5
 The mT5 model was fine-tuned for language identification using a specific dataset. Details about the training process and dataset are available in the mT5_training.ipynb file.
-Alternatively run the file directly in colab by - 
-[![Open In Colab](https://colab.research.google.com/github/anishabhatnagar/CML-Final-Proj/blob/main/mT5_training.ipynb)]
-
+Alternatively run the notebook directly in colab. 
 <a target="_blank" href="https://colab.research.google.com/github/anishabhatnagar/CML-Final-Proj/blob/main/mT5_training.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
