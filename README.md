@@ -36,21 +36,25 @@ kubectl logs -f <pod-name>
 ##### Deploy application locally
 The application uses gradio python package. To deploy locally, create a conda environment and install the requirements.
 ```
-conda create --name my-env python=3.9
+conda create --name myenv python=3.9
+conda activate myenv
 pip install -r requirements.txt
 ```
-Then deploy the application using :
+Place the weigths in the same folder as app.py and deploy the application using :
 ```
 python3 app.py
 ```
 
 ### Fine-tuning mT5
-The mT5 model was fine-tuned for language identification using a specific dataset. Details about the training process and dataset are available in the mT5_training.ipynb file.
+The mT5 model was fine-tuned for language identification using a subset of the XNLI dataset (download from here). Details about the training process and dataset are available in the mT5_training.ipynb notebook.
 Alternatively run the notebook directly in colab. 
 <a target="_blank" href="https://colab.research.google.com/github/anishabhatnagar/CML-Final-Proj/blob/main/mT5_training.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
 ### Contributors
-Anisha Bhatnagar(ab10945@nyu.edu)
-Divyanshi Parashar (dp3635@nyu.edu)
+Anisha Bhatnagar(ab10945@nyu.edu)\
+Divyanshi Parashar (dp3635@nyu.edu)\
+
+### REFERENCES
+1. https://github.com/KrishnanJothi/MT5_Language_identification_NLP

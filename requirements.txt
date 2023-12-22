@@ -1,0 +1,6 @@
+gradio
+numpy
+transformers
+sentencepiece
+protobuf==3.20.3
+accelerate
