@@ -49,6 +49,10 @@ The mT5 model was fine-tuned for language identification using a specific datase
 Alternatively run the file directly in colab by - 
 [![Open In Colab](https://colab.research.google.com/github/anishabhatnagar/CML-Final-Proj/blob/main/mT5_training.ipynb)]
 
+<a target="_blank" href="https://colab.research.google.com/github/anishabhatnagar/CML-Final-Proj/blob/main/mT5_training.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 ### Contributors
 Anisha Bhatnagar(ab10945@nyu.edu)
 Divyanshi Parashar (dp3635@nyu.edu)
