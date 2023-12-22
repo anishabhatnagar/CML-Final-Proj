@@ -54,7 +54,7 @@ Alternatively run the notebook directly in colab.
 
 ### Contributors
 Anisha Bhatnagar(ab10945@nyu.edu)\
-Divyanshi Parashar (dp3635@nyu.edu)\
+Divyanshi Parashar (dp3635@nyu.edu)
 
 ### REFERENCES
 1. https://github.com/KrishnanJothi/MT5_Language_identification_NLP
