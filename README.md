@@ -46,12 +46,13 @@ python3 app.py
 ```
 
 ### Fine-tuning mT5
-The mT5 model was fine-tuned for language identification using a subset of the XNLI dataset (download from here). Details about the training process and dataset are available in the mT5_training.ipynb notebook.
+The mT5 model was fine-tuned for language identification using a subset of the XNLI dataset. Details about the training process and dataset are available in the mT5_training.ipynb notebook.
 Alternatively run the notebook directly in colab. 
 <a target="_blank" href="https://colab.research.google.com/github/anishabhatnagar/CML-Final-Proj/blob/main/mT5_training.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+(download the data and finetuned model weights from [here](https://drive.google.com/drive/folders/1PCA14F4sK_GhdK0bdA_x3krFY0ABu9U8?usp=sharing))
 ### Contributors
 Anisha Bhatnagar(ab10945@nyu.edu)\
 Divyanshi Parashar (dp3635@nyu.edu)
